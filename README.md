@@ -1,35 +1,41 @@
 # Booking-itinerary
 frontend itinerary builder that allows users to create a multi-day tour plan and generate a PDF output based on the provided Figma design template. The final PDF output
-# 🧳 Vigovia Itinerary Planner
+# 🧭 Vigovia Itinerary Planner
 
-A full-featured itinerary builder built with **React**, allowing users to plan trips day-by-day with detailed activities, hotel and flight info, payment plans, inclusions/exclusions, and generate a downloadable PDF itinerary that matches a clean professional design.
+A full-featured **React** itinerary builder where users can add and remove travel days, enter activities, hotel and flight details, payment plans, and generate a downloadable PDF itinerary that matches a professional travel layout.
 
 ---
 
 ## 🚀 Features
 
-- **Dynamic Days**  
-  ➕ Add or ➖ remove days easily from the itinerary.
-
-- **Day Planning**  
-  Add Morning / Afternoon / Evening activities for each day.
-
-- **Hotel Details**  
-  Enter hotel name, check-in/out dates, city, and number of nights.
-
-- **Flights / Transfers**  
-  Add flight or transport details per day.
-
-- **Payment Plan**  
-  Specify number of installments, payment amounts, and due dates.
-
-- **Inclusions / Exclusions**  
-  Add what’s included or excluded from the trip.
-
-- **Generate PDF**  
-  Export the complete itinerary as a downloadable PDF matching your given design.
+- ➕ Add / ➖ Remove Days from the itinerary  
+- 🕒 Add Morning / Afternoon / Evening activities per day  
+- 🏨 Input hotel details (name, city, check-in/out, nights)  
+- ✈️ Add flight / transfer details  
+- 💰 Add payment plan (installments, amounts, due dates)  
+- 📝 Add inclusions and exclusions  
+- 📄 Export full itinerary as a **PDF**
 
 ---
 
-## 🏗️ Project Structure
+## ⚙️ Project Setup Guide
+
+Follow these steps **from scratch** 👇
+
+### 1️⃣ Create a new React app
+```bash
+npx create-react-app vigovia-itinerary
+cd vigovia-itinerary
+```
+### Start the app
+```bash
+npm start
+npm run dev
+```
+### Add Required Packages
+```bash
+npm install jspdf html2canvas
+npm install react-icons prop-types
+npm uuid
+```
 
